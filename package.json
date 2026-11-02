@@ -1,0 +1,9 @@
+{
+  "name": "impeccable-patch",
+  "version": "4.8.0-patch.1",
+  "description": "impeccable 4.8.0 with 8 extra rules, installed into Claude Code by npx github:wifecooky/impeccable",
+  "private": true,
+  "license": "Apache-2.0",
+  "bin": { "impeccable-patch": "install.js" },
+  "engines": { "node": ">=18" }
+}

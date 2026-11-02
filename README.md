@@ -32,24 +32,34 @@ The tested text named the original project and quoted the user. The published te
 
 ## Install
 
-Recommended: install upstream impeccable first (it also installs its agents and design hook), then append the patch.
-
 ```bash
-npx impeccable@4.8.0 install
-curl -fsSL https://raw.githubusercontent.com/wifecooky/impeccable/main/patch.md \
-  | { printf '\n'; cat; } >> ~/.claude/skills/impeccable/SKILL.md
+npx github:wifecooky/impeccable
 ```
 
-Updating upstream impeccable overwrites `SKILL.md`. Append the patch again after each update.
+This installs the same things as `npx impeccable@4.8.0 install` into `~/.claude` (or `$CLAUDE_CONFIG_DIR`), with the patch already in `SKILL.md`:
 
-Skill only, without the agents and hook:
+- the skill: `skills/impeccable/`
+- the 4 upstream agents: `agents/`
+- the upstream design detector hook: 3 entries in `settings.json`. Other settings are kept, and a backup is written to `settings.json.bak`.
+
+Options:
+
+- `--force`: replace an existing `~/.claude/skills/impeccable`, for example one installed by upstream.
+- `--no-hooks`: install without the hook. On Windows the hook is always skipped.
+
+Without npm:
 
 ```bash
 git clone https://github.com/wifecooky/impeccable.git
 cp -R impeccable/skills/impeccable ~/.claude/skills/
+mkdir -p ~/.claude/agents && cp impeccable/agents/*.md ~/.claude/agents/
 ```
 
+This copies the skill and the agents, but not the hook.
+
 Use it like upstream: `/impeccable build a landing page for a coffee shop…`
+
+The upstream installer (`npx impeccable install` or `update`) overwrites `SKILL.md` and removes the patch. Run `npx github:wifecooky/impeccable --force` again afterwards.
 
 ## License
 
