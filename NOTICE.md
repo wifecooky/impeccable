@@ -5,7 +5,7 @@ This repository redistributes **impeccable 4.8.0** by Paul Bakaus (https://githu
 ## Changes from upstream
 
 - `skills/impeccable/SKILL.md`: a section titled "Additions (not upstream)" is appended at the end. Its text is the same as `patch.md`.
-- `patch.md`, `README.md`, `NOTICE.md`, `install.js`, `package.json`: new files.
+- `patch.md`, `README.md`, `README.zh-CN.md`, `NOTICE.md`, `install.js`, `package.json`: new files.
 - `agents/`: the 4 agent files the upstream installer writes to `~/.claude/agents/`, copied unchanged.
 - No other upstream file is changed.
 

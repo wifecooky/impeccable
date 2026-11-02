@@ -1,5 +1,7 @@
 # impeccable + patch
 
+English | [中文](README.zh-CN.md)
+
 [impeccable](https://github.com/pbakaus/impeccable) 4.8.0 by Paul Bakaus, with 8 extra rules appended to `SKILL.md`. This is an unofficial, modified copy, not the upstream project.
 
 Each extra rule comes from a real design session where the user found a problem the skill had not stopped. Each rule is written as Cause → Fix → Verify. The full text is in [`patch.md`](patch.md).
