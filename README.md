@@ -2,7 +2,7 @@
 
 English | [中文](README.zh-CN.md)
 
-[impeccable](https://github.com/pbakaus/impeccable) 4.8.0 by Paul Bakaus, with 8 extra rules appended to `SKILL.md`. This is an unofficial, modified copy, not the upstream project.
+[impeccable](https://github.com/pbakaus/impeccable) 4.8.0 by Paul Bakaus, with 10 extra rules appended to `SKILL.md`. This is an unofficial, modified copy, not the upstream project.
 
 Each extra rule comes from a real design session where the user found a problem the skill had not stopped. Each rule is written as Cause → Fix → Verify. The full text is in [`patch.md`](patch.md).
 
@@ -14,6 +14,8 @@ Each extra rule comes from a real design session where the user found a problem 
 6. A semantic colour must appear wherever its label appears; result pages lead with the usable output.
 7. Data-driven rows need a count limit; check the share card with the largest real count.
 8. Content links, images and code in rendered markdown stay on the page and inside the column.
+9. A brand metaphor goes in the mark and the accents, not in the reading surface.
+10. A red circle on an icon's corner reads as a notification badge.
 
 ## Blind test result
 

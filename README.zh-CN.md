@@ -2,7 +2,7 @@
 
 [English](README.md) | 中文
 
-这是 Paul Bakaus 的 [impeccable](https://github.com/pbakaus/impeccable) 4.8.0，在 `SKILL.md` 末尾追加了 8 条规则。这是非官方的修改版，不是上游项目。
+这是 Paul Bakaus 的 [impeccable](https://github.com/pbakaus/impeccable) 4.8.0，在 `SKILL.md` 末尾追加了 10 条规则。这是非官方的修改版，不是上游项目。
 
 每条追加规则都来自一次真实的设计过程：用户发现了问题，而原 skill 没有拦住。每条规则都按「原因 → 修复 → 验证」来写。全文在 [`patch.md`](patch.md)（英文）。
 
@@ -14,6 +14,8 @@
 6. 有颜色含义的标签，出现在哪里都要带上颜色；结果页先给能直接用的产出。
 7. 由数据生成的列表要限制条数；分享卡片要用真实数据里最多的条数来检查。
 8. 渲染后的 markdown 里，链接、图片和代码都留在页面内、留在正文栏内。
+9. 品牌比喻放在标志和点缀里，不铺满阅读页面。
+10. 图标角上的红色圆点会被看成未读通知。
 
 ## 盲测结果
 
