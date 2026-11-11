@@ -16,6 +16,7 @@ Each extra rule comes from a real design session where the user found a problem 
 8. Content links, images and code in rendered markdown stay on the page and inside the column.
 9. A brand metaphor goes in the mark and the accents, not in the reading surface.
 10. A red circle on an icon's corner reads as a notification badge.
+11. A selection mode's action bar appears when the mode turns on, not after the first pick.
 
 ## Blind test result
 
