@@ -17,6 +17,9 @@ Each extra rule comes from a real design session where the user found a problem 
 9. A brand metaphor goes in the mark and the accents, not in the reading surface.
 10. A red circle on an icon's corner reads as a notification badge.
 11. A selection mode's action bar appears when the mode turns on, not after the first pick.
+12. On a phone the main object gets most of the screen; controls collapse to one row each.
+13. Automatic language detection still needs a visible manual switch.
+14. Beside a film, one ruled column (question, line, chapters); re-check every layout variant after a shared edit.
 
 ## Blind test result
 
